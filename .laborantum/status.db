@@ -4,7 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 96,
-                "correct": 19
+                "correct": 20
             }
         },
         {
@@ -25,7 +25,7 @@
             "path": "/texts/course/3. Matrices/config.yml",
             "status": {
                 "total": 23,
-                "correct": 1
+                "correct": 2
             }
         }
     ],
@@ -340,8 +340,17 @@
             "path": "/texts/course/3. Matrices/Matrix Product Quiz/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    11,
+                    10,
+                    6,
+                    1,
+                    2,
+                    5,
+                    4,
+                    7
+                ]
             }
         },
         {
