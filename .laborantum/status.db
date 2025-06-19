@@ -3,8 +3,8 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 96,
-                "correct": 21
+                "total": 111,
+                "correct": 26
             }
         },
         {
@@ -26,6 +26,20 @@
             "status": {
                 "total": 23,
                 "correct": 3
+            }
+        },
+        {
+            "path": "/texts/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/config.yml",
+            "status": {
+                "total": 15,
+                "correct": 5
             }
         }
     ],
@@ -154,17 +168,19 @@
         {
             "path": "/texts/course/1. Vectors/Numpy Practice/config.yml",
             "status": {
-                "total": 1,
+                "total": 15,
                 "correct": 0,
-                "selectedVariantIds": []
+                "testStatus": [],
+                "error": "[NbClientApp] Executing .laborantum/texts/course/1. Vectors/Numpy Practice/task.ipynb\n[NbClientApp] Executing notebook with kernel: python3\nTraceback (most recent call last):\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 154, in wrapped\n    asyncio.get_running_loop()\nRuntimeError: no running event loop\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/local/bin/jupyter-execute\", line 8, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/application.py\", line 284, in launch_instance\n    super().launch_instance(argv=argv, **kwargs)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 1074, in launch_instance\n    app.initialize(argv)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 118, in inner\n    return method(app, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 161, in initialize\n    self.run_notebook(path)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 215, in run_notebook\n    client.execute()\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 158, in wrapped\n    return loop.run_until_complete(inner)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 709, in async_execute\n    await self.async_execute_cell(\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 1062, in async_execute_cell\n    await self._check_raise_for_error(cell, cell_index, exec_reply)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 918, in _check_raise_for_error\n    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)\nnbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:\n------------------\nv = answer['vectors'][-1]\n\nanswer['deep_copy'] = [\n    # Make each modification on a new copy of v\n    (lambda x: x[3:4] := 1 or x)(v.copy()),            # 3rd coordinate set to 1\n    (lambda x: x[2:5] := 10 or x)(v.copy()),          # 2-4th coordinates set to 10\n    (lambda x: x[::2] := 2 or x)(v.copy()),           # even coordinates set to 2 \n    (lambda x: x[1::2] := 3 or x)(v.copy()),          # odd coordinates set to 3\n    (lambda x: x[-1:] := -1 or x)(v.copy()),          # last coordinate set to -1\n    (lambda x: x[[0,1,-1]] := -10 or x)(v.copy()),    # 0,1,last coordinates set to -10\n    (lambda x: x[x < 1] := 0 or x)(v.copy())          # values < 1 set to 0\n]\n------------------\n\n\n  \u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[8]\u001b[39m\u001b[32m, line 5\u001b[39m\n\u001b[31m    \u001b[39m\u001b[31m(lambda x: x[3:4] := 1 or x)(v.copy()),            # 3rd coordinate set to 1\u001b[39m\n     ^\n\u001b[31mSyntaxError\u001b[39m\u001b[31m:\u001b[39m cannot use assignment expressions with lambda\n\n\n"
             }
         },
         {
             "path": "/texts/course/1. Vectors/Vectors Practice/config.yml",
             "status": {
-                "total": 1,
+                "total": 10,
                 "correct": 0,
-                "selectedVariantIds": []
+                "testStatus": [],
+                "error": "[NbClientApp] Executing .laborantum/texts/course/1. Vectors/Vectors Practice/task.ipynb\n[NbClientApp] Executing notebook with kernel: python3\nTraceback (most recent call last):\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 154, in wrapped\n    asyncio.get_running_loop()\nRuntimeError: no running event loop\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/local/bin/jupyter-execute\", line 8, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/application.py\", line 284, in launch_instance\n    super().launch_instance(argv=argv, **kwargs)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 1074, in launch_instance\n    app.initialize(argv)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 118, in inner\n    return method(app, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 161, in initialize\n    self.run_notebook(path)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 215, in run_notebook\n    client.execute()\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 158, in wrapped\n    return loop.run_until_complete(inner)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 709, in async_execute\n    await self.async_execute_cell(\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 1062, in async_execute_cell\n    await self._check_raise_for_error(cell, cell_index, exec_reply)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 918, in _check_raise_for_error\n    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)\nnbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:\n------------------\ninputs = json_tricks.load('.inputs.json')\ninputs1 = json_tricks.load('.inputs2.json')\n\nanswers = {}\n------------------\n\n\n\u001b[31m---------------------------------------------------------------------------\u001b[39m\n\u001b[31mFileNotFoundError\u001b[39m                         Traceback (most recent call last)\n\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[2]\u001b[39m\u001b[32m, line 1\u001b[39m\n\u001b[32m----> \u001b[39m\u001b[32m1\u001b[39m inputs = \u001b[43mjson_tricks\u001b[49m\u001b[43m.\u001b[49m\u001b[43mload\u001b[49m\u001b[43m(\u001b[49m\u001b[33;43m'\u001b[39;49m\u001b[33;43m.inputs.json\u001b[39;49m\u001b[33;43m'\u001b[39;49m\u001b[43m)\u001b[49m\n\u001b[32m      2\u001b[39m inputs1 = json_tricks.load(\u001b[33m'\u001b[39m\u001b[33m.inputs2.json\u001b[39m\u001b[33m'\u001b[39m)\n\u001b[32m      4\u001b[39m answers = {}\n\n\u001b[36mFile \u001b[39m\u001b[32m/usr/local/lib/python3.11/site-packages/json_tricks/nonp.py:284\u001b[39m, in \u001b[36mload\u001b[39m\u001b[34m(fp, preserve_order, ignore_comments, decompression, obj_pairs_hooks, extra_obj_pairs_hooks, cls_lookup_map, allow_duplicates, conv_str_byte, properties, **jsonkwargs)\u001b[39m\n\u001b[32m    282\u001b[39m \topen_binary = \u001b[38;5;28mbool\u001b[39m(decompression)\n\u001b[32m    283\u001b[39m \u001b[38;5;28;01melse\u001b[39;00m:\n\u001b[32m--> \u001b[39m\u001b[32m284\u001b[39m \t\u001b[38;5;28;01mwith\u001b[39;00m \u001b[38;5;28;43mopen\u001b[39;49m\u001b[43m(\u001b[49m\u001b[43mfp\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[33;43m'\u001b[39;49m\u001b[33;43mrb\u001b[39;49m\u001b[33;43m'\u001b[39;49m\u001b[43m)\u001b[49m \u001b[38;5;28;01mas\u001b[39;00m fh:\n\u001b[32m    285\u001b[39m \t\t\u001b[38;5;66;03m# This attempts to detect gzip mode; gzip should always\u001b[39;00m\n\u001b[32m    286\u001b[39m \t\t\u001b[38;5;66;03m# have this header, and text json can't have it.\u001b[39;00m\n\u001b[32m    287\u001b[39m \t\topen_binary = (fh.read(\u001b[32m2\u001b[39m) == \u001b[33mb\u001b[39m\u001b[33m'\u001b[39m\u001b[38;5;130;01m\\x1f\u001b[39;00m\u001b[38;5;130;01m\\x8b\u001b[39;00m\u001b[33m'\u001b[39m)\n\u001b[32m    288\u001b[39m \u001b[38;5;28;01mwith\u001b[39;00m \u001b[38;5;28mopen\u001b[39m(fp, \u001b[33m'\u001b[39m\u001b[33mrb\u001b[39m\u001b[33m'\u001b[39m \u001b[38;5;28;01mif\u001b[39;00m open_binary \u001b[38;5;28;01melse\u001b[39;00m \u001b[33m'\u001b[39m\u001b[33mr\u001b[39m\u001b[33m'\u001b[39m) \u001b[38;5;28;01mas\u001b[39;00m fh:\n\n\u001b[31mFileNotFoundError\u001b[39m: [Errno 2] No such file or directory: '.inputs.json'\n\n"
             }
         },
         {
@@ -368,6 +384,83 @@
         },
         {
             "path": "/texts/course/3. Matrices/Matrix Product/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Functions as Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    5,
+                    6,
+                    8,
+                    1
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Linear Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    4,
+                    10,
+                    11,
+                    6,
+                    8
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Invertible Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    3,
+                    6
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Invertible Matrices II/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    4,
+                    6,
+                    8,
+                    9,
+                    10,
+                    12,
+                    13
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Invertible Matrices III/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    6
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Some Interesting Linear Transforms/config.yml",
             "status": {
                 "total": 1,
                 "correct": 0,
