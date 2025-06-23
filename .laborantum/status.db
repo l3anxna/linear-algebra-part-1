@@ -4,7 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 111,
-                "correct": 74.5
+                "correct": 82.27777777777777
             }
         },
         {
@@ -25,7 +25,7 @@
             "path": "/texts/course/3. Matrices/config.yml",
             "status": {
                 "total": 23,
-                "correct": 3
+                "correct": 10.777777777777779
             }
         },
         {
@@ -4534,9 +4534,55 @@
         {
             "path": "/texts/course/3. Matrices/Matrices Manual Exercise/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 7.777777777777778,
+                "total": 10,
+                "testStatus": [
+                    {
+                        "name": "root -> task1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2",
+                        "ok": false,
+                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (2, 5)\nRecieved shape: (5, 2)"
+                    },
+                    {
+                        "name": "root -> task3 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 3",
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 370.0"
+                    },
+                    {
+                        "name": "root -> task4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task5 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task5 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task5 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    }
+                ]
             }
         },
         {
