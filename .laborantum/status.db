@@ -4,7 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 111,
-                "correct": 88.9011544011544
+                "correct": 92.27777777777777
             }
         },
         {
@@ -18,7 +18,7 @@
             "path": "/texts/course/2. Vector Spaces/config.yml",
             "status": {
                 "total": 39,
-                "correct": 29.123376623376622
+                "correct": 32.5
             }
         },
         {
@@ -2987,7 +2987,7 @@
         {
             "path": "/texts/course/2. Vector Spaces/Coordinates and Basis Practice/config.yml",
             "status": {
-                "correct": 6.623376623376624,
+                "correct": 10,
                 "total": 10,
                 "testStatus": [
                     {
@@ -3002,13 +3002,13 @@
                     },
                     {
                         "name": "root -> task0 -> a -> covariant_x",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task0 -> a -> covariant_y",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task0 -> b -> contravariant_x",
@@ -3022,13 +3022,13 @@
                     },
                     {
                         "name": "root -> task0 -> b -> covariant_x",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task0 -> b -> covariant_y",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task1 -> 0",
@@ -3532,503 +3532,503 @@
                     },
                     {
                         "name": "root -> task2 -> 0",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 1",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 8)\nRecieved shape: (8, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 2",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 3",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 4",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 5",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 2)\nRecieved shape: (2, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 6",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 7",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 8",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 2)\nRecieved shape: (2, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 9",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 10",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 4)\nRecieved shape: (4, 6)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 11",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 12",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (4, 9)\nRecieved shape: (9, 4)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 13",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 14",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 15",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 8)\nRecieved shape: (8, 7)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 16",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 17",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 18",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 19",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 20",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 5)\nRecieved shape: (5, 7)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 21",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 22",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 23",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 24",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 25",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 7)\nRecieved shape: (7, 8)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 26",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 27",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 28",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 29",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 30",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 31",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 32",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 33",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 5)\nRecieved shape: (5, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 34",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 2)\nRecieved shape: (2, 6)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 35",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 36",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 37",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 4)\nRecieved shape: (4, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 38",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 39",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 4)\nRecieved shape: (4, 5)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 40",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 41",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 42",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 43",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 2)\nRecieved shape: (2, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 44",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 45",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 46",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 47",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 48",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 49",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (3, 6)\nRecieved shape: (6, 3)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 50",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 51",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 52",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 53",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 54",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 55",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 56",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 5)\nRecieved shape: (5, 8)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 57",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 58",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 59",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 60",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 61",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 62",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 63",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 64",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 65",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 66",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 67",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 68",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 69",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 7)\nRecieved shape: (7, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 70",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 3)\nRecieved shape: (3, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 71",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 72",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 5)\nRecieved shape: (5, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 73",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 74",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 75",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 76",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 77",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 78",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 9)\nRecieved shape: (9, 8)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 79",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (7, 6)\nRecieved shape: (6, 7)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 80",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 4)\nRecieved shape: (4, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 81",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 6)\nRecieved shape: (6, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 82",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 83",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 8)\nRecieved shape: (8, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 84",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 3)\nRecieved shape: (3, 6)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 85",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 8)\nRecieved shape: (8, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 86",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 87",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (3, 5)\nRecieved shape: (5, 3)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 88",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (8, 4)\nRecieved shape: (4, 8)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 89",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 90",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (9, 4)\nRecieved shape: (4, 9)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 91",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 8)\nRecieved shape: (8, 5)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 92",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 93",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (5, 4)\nRecieved shape: (4, 5)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 94",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (4, 3)\nRecieved shape: (3, 4)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 95",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (3, 7)\nRecieved shape: (7, 3)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 96",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 97",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 98",
-                        "ok": false,
-                        "status": "FAILED: tensor shapes do not match:\nExpected shape: (6, 2)\nRecieved shape: (2, 6)"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task2 -> 99",
-                        "ok": false,
-                        "status": "FAILED: data types do not match:\nExpected type: int64\nRecieved type: float64"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> task3 -> 0",
