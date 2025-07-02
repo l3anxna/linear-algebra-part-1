@@ -4,7 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 229,
-                "correct": 138.21428571428572
+                "correct": 148.21428571428572
             }
         },
         {
@@ -53,7 +53,7 @@
             "path": "/texts/course/6. Determinants/config.yml",
             "status": {
                 "total": 68,
-                "correct": 18
+                "correct": 28
             }
         }
     ],
@@ -7108,9 +7108,170 @@
         {
             "path": "/texts/course/6. Determinants/Permutations Formula/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 10,
+                "total": 10,
+                "testStatus": [
+                    {
+                        "name": "root -> 2x2 -> + -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 2x2 -> - -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 3x3 -> + -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 3x3 -> + -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 3x3 -> + -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 3x3 -> - -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 3x3 -> - -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 3x3 -> - -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> + -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> + -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> + -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> + -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> + -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> + -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> + -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> + -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> + -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> + -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> + -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> + -> 11",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> - -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> - -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> - -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> - -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> - -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> - -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> - -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> - -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> - -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> - -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> - -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> 4x4 -> - -> 11",
+                        "ok": true,
+                        "status": "OK"
+                    }
+                ]
             }
         },
         {
