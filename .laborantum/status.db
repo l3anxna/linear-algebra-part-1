@@ -3,8 +3,8 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 229,
-                "correct": 224.45
+                "total": 258,
+                "correct": 253.45
             }
         },
         {
@@ -59,8 +59,8 @@
         {
             "path": "/texts/course/7. Eigen Values and Eigen Vectors/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0
+                "total": 29,
+                "correct": 29
             }
         }
     ],
@@ -28169,6 +28169,133 @@
                 "selectedVariantIds": [
                     2,
                     3
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Definition/config.yml",
+            "status": {
+                "total": 3,
+                "correct": 3,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    5
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Properties/config.yml",
+            "status": {
+                "total": 3,
+                "correct": 3,
+                "selectedVariantIds": [
+                    1,
+                    0,
+                    7,
+                    8,
+                    5
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Diagonalized Form of Matrix/config.yml",
+            "status": {
+                "total": 5,
+                "correct": 5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Matrix Power and Exponent/config.yml",
+            "status": {
+                "total": 5,
+                "correct": 5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Differential Equations Evolutionary Matrix/config.yml",
+            "status": {
+                "total": 5,
+                "correct": 5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Differential Equations General Solution/config.yml",
+            "status": {
+                "total": 5,
+                "correct": 5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Jordan Chain/config.yml",
+            "status": {
+                "total": 3,
+                "correct": 3,
+                "selectedVariantIds": [
+                    3,
+                    4,
+                    10,
+                    0,
+                    6,
+                    8,
+                    7,
+                    2
                 ]
             }
         }
